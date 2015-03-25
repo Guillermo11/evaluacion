@@ -1,0 +1,25 @@
+#login{
+	width: 320px;
+	height: 300px;
+	text-align: center;
+	margin-left: 39%;
+	margin-top: 1%;
+	background-color: rgba(0,0,0,0.5);
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 2%;
+	color:white;
+	border-radius: 8% 8% 8% 8%;
+}
+#body1{
+	background-color: rgba(41, 128, 185,1.0);
+}
+button{
+	width: 80%;
+	border-radius: 1% 1% 1% 1%;
+	background-color: rgba(231, 76, 60,1.0);
+}
+#logo{
+	margin-left: 45%;
+	margin-top: 6%;
+}
