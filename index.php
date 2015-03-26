@@ -15,7 +15,7 @@
 		<img src="icon/logoUMG.png" alt="" width="150" height="auto">
 	</div>
 	<div id="login">
-		<h3>Bienvenido</h3>
+		<h3>Evaluación de docentes</h3>
 		<form id="login2" action="" method="POST" role="form">
 		<!-- <label for="">Usuario</label> -->
 		<br>
@@ -24,7 +24,7 @@
 		<!-- <label for="">Contraseña</label> -->
 		<input class="form-control" type="password" autofocus="" required="" placeholder="Contraseña">
 		<br>
-		<button type="submit" class="btn">Iniciar sesión</button>
+		<button type="submit" class="btn btn-danger">Ingresar</button>
 		</form>
 	</div>
 </body>
