@@ -21,7 +21,7 @@
 		<br>
 		<input class="form-control" type="text" autofocus="" required="" placeholder="Nombre de usuario">
 		<br>
-		<!-- <label for="">Contraseña</label> -->
+		<!-- <label for="">Contraseña</label> esto es un comentsrio de prueba de IIBM BLUEMIX-->
 		<input class="form-control" type="password" autofocus="" required="" placeholder="Contraseña">
 		<br>
 		<button type="submit" class="btn btn-danger">Ingresar</button>
