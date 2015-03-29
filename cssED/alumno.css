@@ -1,49 +1,35 @@
-#direccionbody{
-    background-color: #34495e;
+#menutop{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 2%;
 }
-.navbar {
-    border-radius: 0px;
-    background-color: rgba(255,255,255,0.8);
+.navbar{
+	background-color: rgba(255,255,255,0.5);
 }
-.navbar-nav {
-    float: right;
- }
-
-a{
-	font-weight: bold;
+.navbar-toggle{
+	border-radius: 7px 7px 7px 7px;
 }
 
-.thumbnail {
-    width: 85%;
-    background-color: rgba(255,255,255,0.5);
-    padding-top: 7%;
+#tabla{
+	margin-left: 15%;
+	width: 70%;
 }
-
-/****************MODAL***************/
-
-
-.modal-dialog {
-    margin: 12% auto;
+.table{
+	font-family: fantasy;
 }
-h4{
-    text-align: center;
-}
-h5{
-    text-align: center;
-    font-weight: bold;
-}
-td{
-    font-weight: lighter;
-    font-family: verdana;
-}
-.modal-body {
-    width: 100%;
-    margin-left: 0%;
-}
+.bodyalumno{
 
-.container {
-  width: 100%,
+background-size: 180% 255%;
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #04475E),
+	color-stop(1, #042533)
+);
+background-image: -o-linear-gradient(bottom, #04475E 0%, #042533 100%);
+background-image: -moz-linear-gradient(bottom, #04475E 0%, #042533 100%);
+background-image: -webkit-linear-gradient(bottom, #04475E 0%, #042533 100%);
+background-image: -ms-linear-gradient(bottom, #04475E 0%, #042533 100%);
+background-image: linear-gradient(to bottom, #04475E 0%, #042533 100%);
 }
-
-
-
