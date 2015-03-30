@@ -1,31 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<!-- <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,600' rel='stylesheet' type='text/css'> -->
 	<link rel="stylesheet" type="text/css" href="cssED/index.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="fonts/helvetica">
 	<script type="text/javascript" src="js/bootstrap.js"></script>
-
 	<meta charset="UTF-8">
 	<title>Evaluacion Docente UMG</title>
 </head>
 <body id="body1">
-	<div id="logo">
-		<img src="icon/logoUMG.png" alt="" width="150" height="auto">
-	</div>
+
 	<div id="login">
-		<h3>Evaluación de docentes</h3>
-		<form id="login2" action="" method="POST" role="form">
-		<!-- <label for="">Usuario</label> -->
+		<div id="logo">
+			<img src="icon/logoUMG.png" alt="" width="150" height="auto" >
+		</div>
 		<br>
-		<input class="form-control" type="text" autofocus="" required="" placeholder="Nombre de usuario">
-		<br>
-		<!-- <label for="">Contraseña</label> esto es un comentsrio de prueba de IIBM BLUEMIX-->
-		<input class="form-control" type="password" autofocus="" required="" placeholder="Contraseña">
-		<br>
-		<button type="submit" class="btn btn-danger">Ingresar</button>
-		</form>
+		<div id="triangulo"></div>
+		<div id="login2">
+			<h3>Inicia sesión</h3>
+			<form  action="" method="POST" role="form">
+			<!-- <label for="">Usuario</label> -->
+				<br>
+				<input class="form-control" type="text" autofocus="" required="" placeholder="Nombre de usuario">
+				<br>
+				<!-- <label for="">Contraseña</label> esto es un comentsrio de prueba de IIBM BLUEMIX-->
+				<input class="form-control" type="password" autofocus="" required="" placeholder="Contraseña">
+				<br>
+				<button type="submit" class="btn btn-danger">Ingresar</button>
+			</form>
+		</div>
 	</div>
 </body>
 </html>
