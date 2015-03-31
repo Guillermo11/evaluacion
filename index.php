@@ -18,13 +18,13 @@
 		<div id="triangulo"></div>
 		<div id="login2">
 			<h3>Inicia sesión</h3>
-			<form  action="" method="POST" role="form">
+			<form  action="Valida_Session.php" method="POST" role="form">
 			<!-- <label for="">Usuario</label> -->
 				<br>
-				<input class="form-control" autocomplete="off" type="text" autofocus="" required="" placeholder="Nombre de usuario">
+				<input class="form-control" autocomplete="off" type="text" name="usuario" autofocus="" required="" placeholder="Nombre de usuario">
 				<br>
 				<!-- <label for="">Contraseña</label> esto es un comentsrio de prueba de IIBM BLUEMIX-->
-				<input class="form-control" autocomplete="off" type="password" autofocus="" required="" placeholder="Contraseña">
+				<input class="form-control" autocomplete="off" type="password" name="password" autofocus="" required="" placeholder="Contraseña">
 				<br>
 				<button type="submit" class="btn btn-danger">Ingresar</button>
 			</form>
