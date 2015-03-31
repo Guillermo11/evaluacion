@@ -13,7 +13,7 @@
 
 <body class="bodyalumno">
 <!--barra menu-->
-		<nav id="menutop" class="navbar navbar-default">
+		<nav id="menutop" class="navbar navbar-default navbar-fixed-top">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
 					<span class="icon-bar"></span>
@@ -26,13 +26,13 @@
 		
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
 				<ul id="usuario" class="nav navbar-nav">
-					<br><li>Bienvenido: </li>
+					<li>Bienvenido: </li>
 					<br><li><label>Nombre del alumno carnet xxx xx<label></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li>
 						<a class="navbar-brand" href="#">
-						<img src="icon/cerrar2.png" width="40px" height="auto">
+						<img src="icon/cerrar2.png" width="30px" height="auto">
 						Salir
 						</a>
 					</li>
