@@ -32,8 +32,7 @@
 				<ul class="nav navbar-nav navbar-right">
 					<li>
 						<a class="navbar-brand" href="#">
-						<img src="icon/cerrar2.png" width="30px" height="auto">
-						Salir
+						<img src="icon/cerrar2.png" width="30px" height="auto" name="Salir" value="Salir">
 						</a>
 					</li>
 				</ul>
