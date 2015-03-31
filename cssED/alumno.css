@@ -5,21 +5,21 @@ background-image: -webkit-gradient(
 	linear,
 	left top,
 	left bottom,
-	color-stop(0, #04475E),
-	color-stop(1, #042533)
+	color-stop(0, #064961),
+	color-stop(1, #0686C2)
 );
-background-image: -o-linear-gradient(bottom, #04475E 0%, #042533 100%);
-background-image: -moz-linear-gradient(bottom, #04475E 0%, #042533 100%);
-background-image: -webkit-linear-gradient(bottom, #04475E 0%, #042533 100%);
-background-image: -ms-linear-gradient(bottom, #04475E 0%, #042533 100%);
-background-image: linear-gradient(to bottom, #04475E 0%, #042533 100%);
+background-image: -o-linear-gradient(bottom, #064961 0%, #0686C2 100%);
+background-image: -moz-linear-gradient(bottom, #064961 0%, #0686C2 100%);
+background-image: -webkit-linear-gradient(bottom, #064961 0%, #0686C2 100%);
+background-image: -ms-linear-gradient(bottom, #064961 0%, #0686C2 100%);
+background-image: linear-gradient(to bottom, #064961 0%, #0686C2 100%);
 }
 #menutop{
 	width: 80%;
 	margin-left: 10%;
 	margin-top: 2%;
     background-color: rgba(255,255,255,0.9);
-    border-color: rgba(255,255,255,0.2);
+    border-color: rgba(255,255,255,0);
     border-bottom-color: rgba(51, 153, 255,0.5);
 	border-radius: 5px 5px 5px 5px;
 }
@@ -30,34 +30,54 @@ background-image: linear-gradient(to bottom, #04475E 0%, #042533 100%);
 	max-width: 90px;
 }
 #usuario{
-	margin-left: 10%;
+	margin-left: 5%;
 	font-size: 20px;
-	color: gray;
+	color: #34495e;
+	text-align: center;
+	font-weight: bold;
 }
-
-.navbar-right li  a {
-    font-size: 15px;
+.navbar-brand{
+	margin-left: 45%;
+	margin-bottom: 8%;
+	font-size: 10px;
     text-align: center;
-    font-weight: bold;
+    font-weight: bold;	
 }
 #tabla{
-	margin-left: 15%;
-	width: 70%;
+	margin-left: 13%;
+	width: 75%;
 }
 .table{
 	background-color: rgba(255,255,255,0.9);
-}
-.botones{
 	text-align: center;
+	border-radius: 5px 5px 5px 5px;
+	font-size: 17px;
+}
+tr th{
+	text-align: center;
+	color: #20B2E8;
+	font-size: 16px;
+}
+.botones button{
+	border-color: rgba(255,255,255,0);
+	border-radius: 25px 25px 25px 25px;
 }
 
 #sugerencias{
 	border-radius:5px 5px 5px 5px;
 	background-color: rgba(255,255,255,0.8);
     border-color: rgba(255,255,255,0.2);
-
- 
+    width: 40%; 
+    min-width: 180px;
 }
-ul li{
-	display: inline;
+div h3{
+	color: white;
+	font-size: 20px;
+	
+}
+#enviar{
+	margin: 2% auto 2%;
+	width: 150px;
+	border-color: rgba(255,255,255,0);
+	font-weight: bold;
 }

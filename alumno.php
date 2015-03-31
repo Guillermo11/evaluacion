@@ -29,12 +29,12 @@
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
 				<ul id="usuario" class="nav navbar-nav">
 					<br><li>Bienvenido: </li>
-					<br><li>Nombre del alumno carnet xxx xx<li>
+					<br><li><label>Nombre del alumno carnet xxx xx<label></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li>
 						<a class="navbar-brand" href="#">
-						<img src="icon/cerrar2.png" width="50px" height="auto">
+						<img src="icon/cerrar2.png" width="40px" height="auto">
 						Salir
 						</a>
 					</li>
@@ -47,7 +47,7 @@
 
 
 	<div id="tabla">
-		<table class="table table-bordered table-hover table-striped">
+		<table  class="table table-hover table-striped">
 			<thead>
 				<tr>
 					<th></th>
@@ -59,7 +59,7 @@
 			<tbody>
 				<tr>
 					<td class="botones">
-						<button type="button" class="btn btn-info">Evaluar</button>
+						<button type="button" class="btn btn-danger">Evaluar</button>
 					</td>
 					<td>2690-238</td>
 					<td>Estadistica Inferencial</td>
@@ -67,7 +67,7 @@
 				</tr>
 				<tr>
 					<td class="botones">
-						<button type="button" class="btn btn-info">Evaluar</button>
+						<button type="button" class="btn btn-danger">Evaluar</button>
 					</td>
 					<td>2690-345</td>
 					<td>Analisis de Sistemas</td>
@@ -75,7 +75,7 @@
 				</tr>
 				<tr>
 					<td class="botones">
-						<button type="button" class="btn btn-info">Evaluar</button>
+						<button type="button" class="btn btn-danger">Evaluar</button>
 					</td>
 					<td>2690-235</td>
 					<td>Diseño de Sistemas</td>
@@ -83,7 +83,7 @@
 				</tr>
 				<tr>
 					<td class="botones">
-						<button type="button" class="btn btn-info">Evaluar</button>
+						<button type="button" class="btn btn-danger">Evaluar</button>
 					</td>
 					<td>2690-238</td>
 					<td>Estadistica Inferencial</td>
@@ -91,7 +91,7 @@
 				</tr>
 				<tr>
 					<td class="botones">
-						<button type="button" class="btn btn-info">Evaluar</button>
+						<button type="button" class="btn btn-danger">Evaluar</button>
 					</td>
 					<td>2690-345</td>
 					<td>Analisis de Sistemas</td>
@@ -99,7 +99,7 @@
 				</tr>
 				<tr>
 					<td class="botones">
-						<button type="button" class="btn btn-info">Evaluar</button>
+						<button type="button" class="btn btn-danger">Evaluar</button>
 					</td>
 					<td>2690-235</td>
 					<td>Diseño de Sistemas</td>
@@ -107,17 +107,15 @@
 				</tr>
 			</tbody>
 		</table>
-		<div > 
-			<ul>	
-				<li>
-				<textarea name="sugerencias" id="sugerencias"  cols="60" rows="5" >
-				</textarea>
-				</li>
-				<li>			
-				<button type="button" class="btn btn-danger">Enviar</button>
-				</li>
-			</ul>
+		<div id="cajatexto"> 
+			<br><h3>Sugerencias:</h3>
+			<textarea class="form-control" autocomplete="off" name="sugerencias" id="sugerencias"  rows="5" >
+			</textarea>
 		</div>
+		<div >
+			<button id="enviar" type="button" class="btn btn-success">Enviar</button>
+
+		</div> 
 	</div>
 </body>
 
