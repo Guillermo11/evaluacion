@@ -81,3 +81,16 @@ div h3{
 	border-color: rgba(255,255,255,0);
 	font-weight: bold;
 }
+
+
+/*css de la ventana emergente*/
+
+h4{
+	text-align: center;
+}
+
+#cancelar{
+	margin-right: 18%;
+	width: 30%;
+	font-weight: bold;
+}

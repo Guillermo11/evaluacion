@@ -14,7 +14,6 @@
 <body class="bodyalumno">
 <!--barra menu-->
 		<nav id="menutop" class="navbar navbar-default">
-			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
 					<span class="icon-bar"></span>
@@ -25,7 +24,6 @@
 			</div>
 
 		
-			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
 				<ul id="usuario" class="nav navbar-nav">
 					<br><li>Bienvenido: </li>
@@ -59,7 +57,7 @@
 			<tbody>
 				<tr>
 					<td class="botones">
-						<button type="button" class="btn btn-danger">Evaluar</button>
+						<button type="button" class="btn btn-danger" data-toggle="modal" href='#formEvaluacion'>Evaluar</button>
 					</td>
 					<td>2690-238</td>
 					<td>Estadistica Inferencial</td>
@@ -117,6 +115,33 @@
 
 		</div> 
 	</div>
+
+
+<!-- modal-------------------------------------- -->
+
+	
+	<div class="modal fade" id="formEvaluacion">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title">Bienvenido a la evaluación del curso/catedrático</h4>
+				</div>
+				<div class="modal-body">
+					
+
+
+
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" id="cancelar" class="btn btn-info">Calificar</button>
+					<button type="button" data-dismiss="modal" class="btn btn-default">Cancelar</button>
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
 </body>
 
 </html>
